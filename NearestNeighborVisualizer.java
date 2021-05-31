@@ -14,6 +14,7 @@
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.Point2D;
 import edu.princeton.cs.algs4.StdDraw;
+import edu.princeton.cs.algs4.Stopwatch;
 
 public class NearestNeighborVisualizer {
 
@@ -50,12 +51,16 @@ public class NearestNeighborVisualizer {
             // draw in red the nearest neighbor (using brute-force algorithm)
             StdDraw.setPenRadius(0.03);
             StdDraw.setPenColor(StdDraw.RED);
-            brute.nearest(query).draw();
+            Stopwatch st = new Stopwatch();
+            // brute.nearest(query).draw();
+            System.out.println(st.elapsedTime());
             StdDraw.setPenRadius(0.02);
 
             // draw in blue the nearest neighbor (using kd-tree algorithm)
             StdDraw.setPenColor(StdDraw.BLUE);
+            st = new Stopwatch();
             kdtree.nearest(query).draw();
+            System.out.println(st.elapsedTime());
             StdDraw.show();
             StdDraw.pause(40);
         }
