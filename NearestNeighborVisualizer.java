@@ -32,6 +32,7 @@ public class NearestNeighborVisualizer {
             kdtree.insert(p);
             brute.insert(p);
         }
+        System.out.println(kdtree.size());
 
         // process nearest neighbor queries
         StdDraw.enableDoubleBuffering();

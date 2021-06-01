@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/KdTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PointSET.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Algorithms__Part_I.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Algorithms__Part_I.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms, Part I.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms, Part I.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KdTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KdTree$Separator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KdTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/KdTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KdTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/KdTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KdTreeVisualizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/KdTreeVisualizer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KdTreeVisualizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/KdTreeVisualizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NearestNeighborVisualizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/NearestNeighborVisualizer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NearestNeighborVisualizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/NearestNeighborVisualizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PointSET.class" beforeDir="false" afterPath="$PROJECT_DIR$/PointSET.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PointSET.java" beforeDir="false" afterPath="$PROJECT_DIR$/PointSET.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RangeSearchVisualizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/RangeSearchVisualizer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RangeSearchVisualizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/RangeSearchVisualizer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,6 +97,13 @@
     <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
   <component name="RunManager" selected="Application.RangeSearchVisualizer">
+    <configuration name="KdTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KdTree" />
+      <module name="Algorithms, Part I" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KdTreeVisualizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="KdTreeVisualizer" />
       <module name="Algorithms, Part I" />
@@ -117,7 +129,7 @@
     <configuration name="RangeSearchVisualizer" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RangeSearchVisualizer" />
       <module name="Algorithms, Part I" />
-      <option name="PROGRAM_PARAMETERS" value="input10K.txt" />
+      <option name="PROGRAM_PARAMETERS" value="input10.txt" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -127,12 +139,14 @@
       <item itemvalue="Application.KdTreeVisualizer" />
       <item itemvalue="Application.NearestNeighborVisualizer" />
       <item itemvalue="Application.PointSET" />
+      <item itemvalue="Application.KdTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KdTree" />
+        <item itemvalue="Application.PointSET" />
         <item itemvalue="Application.NearestNeighborVisualizer" />
         <item itemvalue="Application.KdTreeVisualizer" />
-        <item itemvalue="Application.PointSET" />
       </list>
     </recent_temporary>
   </component>
@@ -198,13 +212,18 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/NearestNeighborVisualizer.java</url>
-          <line>61</line>
+          <line>62</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/KdTree.java</url>
-          <line>240</line>
+          <line>259</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/KdTree.java</url>
+          <line>283</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

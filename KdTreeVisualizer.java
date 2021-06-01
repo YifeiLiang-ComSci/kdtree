@@ -21,7 +21,6 @@ public class KdTreeVisualizer {
         KdTree kdtree = new KdTree();
         // PointSET kdtree = new PointSET();
         while (true) {
-            System.out.println(1);
             if (StdDraw.isMousePressed()) {
                 double x = StdDraw.mouseX();
                 double y = StdDraw.mouseY();
@@ -34,6 +33,7 @@ public class KdTreeVisualizer {
                     kdtree.draw();
                     StdDraw.show();
                 }
+                System.out.println(kdtree.size());
             }
             StdDraw.pause(20);
         }

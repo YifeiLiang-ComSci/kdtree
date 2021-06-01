@@ -52,15 +52,15 @@ public class RangeSearchVisualizer {
 
             // user starts to drag a rectangle
             if (StdDraw.isMousePressed() && !isDragging) {
-                x0 = x1 = StdDraw.mouseX();
-                y0 = y1 = StdDraw.mouseY();
+                x0 = x1 = 0.07;
+                y0 = y1 = 0.63;
                 isDragging = true;
             }
 
             // user is dragging a rectangle
             else if (StdDraw.isMousePressed() && isDragging) {
-                x1 = StdDraw.mouseX();
-                y1 = StdDraw.mouseY();
+                x1 = 0.58;
+                y1 = 0.92;
             }
 
             // user stops dragging rectangle
@@ -73,7 +73,10 @@ public class RangeSearchVisualizer {
             StdDraw.setPenColor(StdDraw.BLACK);
             StdDraw.setPenRadius(0.01);
             brute.draw();
-
+            x0 = x1 = 0.07;
+            y0 = y1 = 0.58;
+            x1 = 0.63;
+            y1 = 0.92;
             // draw the rectangle
             RectHV rect = new RectHV(Math.min(x0, x1), Math.min(y0, y1),
                                      Math.max(x0, x1), Math.max(y0, y1));
@@ -92,8 +95,8 @@ public class RangeSearchVisualizer {
             StdDraw.setPenRadius(0.02);
             StdDraw.setPenColor(StdDraw.BLUE);
             st = new Stopwatch();
-            for (Point2D p : kdtree.range(rect))
-                p.draw();
+            // for (Point2D p : kdtree.range(rect))
+            //     p.draw();
 
             System.out.println("kd tree: "+st.elapsedTime());
             StdDraw.show();
